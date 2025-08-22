@@ -25,6 +25,7 @@ java_library {
         "//external/turbine:__subpackages__",
         "//packages/modules:__subpackages__",
         "//prebuilts/sdk/current/androidx/m2repository/androidx:__subpackages__",
+        "//platform_testing/libraries/automotive/val",
     ],
     apex_available: [
         "//apex_available:anyapex",
