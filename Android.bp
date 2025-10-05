@@ -11,6 +11,7 @@ license {
 
 java_library {
     name: "jspecify",
+    defaults: ["error_prone_dependency_defaults"],
     host_supported: true,
     srcs: ["src/main/**/*.java"],
     sdk_version: "core_current",
