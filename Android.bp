@@ -17,17 +17,6 @@ java_library {
     min_sdk_version: "1",
     // b/267831518: Pin tradefed and dependencies to Java 11.
     java_version: "11",
-    visibility: [
-        "//external/dagger2:__subpackages__",
-        "//external/google-java-format:__subpackages__",
-        "//external/icing:__subpackages__",
-        "//external/jsoup:__subpackages__",
-        "//external/truth:__subpackages__",
-        "//external/turbine:__subpackages__",
-        "//packages/modules:__subpackages__",
-        "//prebuilts/sdk/current/androidx/m2repository/androidx:__subpackages__",
-        "//platform_testing/libraries/automotive/val",
-    ],
     apex_available: [
         "//apex_available:anyapex",
         "//apex_available:platform",
